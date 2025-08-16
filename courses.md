@@ -1,7 +1,4 @@
 ---
 layout: courses
-title: "Courses"
+title: "First Tab"
 ---
-
-
-Does this text go where I think it does?? Testing again???

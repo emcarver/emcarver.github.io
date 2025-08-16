@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<div class="row g-5 mb-5">
+  <div>
+    <h3 class="fw-bold border-bottom pb-3 mb-5"> Some kind of page title</h3>
+    <div class="row g-5 mb-5">
+      <div class="col-md-2">
+        <h4>subtitle</h4>
+      </div>
+      <div class="col-md-10">
+        {% for section in site.data.firsttab.paragraphone %}
+          <p class="fw-bold">{{ section.top }}</p>
+          <p>{{ section.lvlone }}</p>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,5 +1,5 @@
 menu:
-- {name: 'Featured Things?? idk what to call this', url: '/featured'}
+- {name: 'First Tab', url: '/featured'}
 - {name: 'Curriculum Vitae', url: '/cv'}
 - {name: 'Contact', url: '/contact'}
 
