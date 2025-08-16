@@ -25,6 +25,7 @@ layout: default
       <div class="col-md-10">
         {% for section in site.data.cv.academic-experience %}
           <p class="fw-bold">{{ section.title }}</p>
+          <p>{{ section.location }}</p>
           <p>{{ section.description }}</p>
         {% endfor %}
       </div>
@@ -35,8 +36,7 @@ layout: default
       </div>
       <div class="col-md-10">
         {% for section in site.data.cv.scholarships-and-awards %}
-          <p class="fw-bold">{{ section.title }}</p>
-          <p>{{ section.description }}</p>
+          <p><strong>{{ section.title }}</strong>{{ section.amount }}{{ section.year }}</p>
         {% endfor %}
       </div>
     </div>
@@ -44,7 +44,7 @@ layout: default
 
   <div>
     <h3 class="fw-bold border-bottom pb-3 mb-5"> Complete CV</h3>
-    <embed src="{{ site.github.url }}/assets/CV_to_keep_updated.pdf" width="1000" height="400" type="application/pdf">
+    <embed src="{{ site.github.url }}/assets/CV_to_keep_updated.pdf" width="975" height="1750" type="application/pdf">
   </div>
 
 </div>
