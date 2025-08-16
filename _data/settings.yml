@@ -1,5 +1,5 @@
 menu:
-- {name: 'First Tab', url: '/featured'}
+- {name: 'First Tab', url: '/firsttab'}
 - {name: 'Curriculum Vitae', url: '/cv'}
 - {name: 'Contact', url: '/contact'}
 
