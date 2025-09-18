@@ -8,7 +8,7 @@ layout: default
       {% for section in site.data.aboutme.aboutmetext %}
         <p class="fw-bold">{{ section.top }}</p>
         <p>{{ section.lvlone }}</p>
-        <img src="{{section.pic}}" width="100%">
+        <img src="{{ site.github.url }}/assets/img/{{ section.pic }}" class="mx-auto d-block" style="max-width: 500px;">
       {% endfor %}
   </div>
 </div>
