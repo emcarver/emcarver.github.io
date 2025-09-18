@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<div class="row g-5 mb-5">
+  <div class="col-md-12">
+    <h3 class="fw-bold border-bottom pb-3 mb-5">Completed Research Projects</h3>
+      {% for section in site.data.projects.summer-2024 %}
+        <p class="fw-bold">{{ section.title }}</p>
+        <p>{{ section.description }}</p>
+        <!-- <img src="{{section.pic}}" width="100%"> -->
+      {% endfor %}
+  </div>
+</div>

@@ -1,0 +1,11 @@
+- top: 'This is the text to display at the top'
+  lvlone: 'I can make this into a quick bio. Should probably declare some research interests. '
+  pic: "{{ site.github.url }}/assets/img/shiningstudent.jpg"
+
+- top: 'Something about outreach generally'
+  lvlone: "I've grown up constantly surrounded by inspiring women, from having my curiosity for the sciences supported by a mother and grandmother with careers teaching STEM in school, to my time in sports learning leadership from inspiring female head coaches, to completing my first internship with an accomplished female researcher. I know that my current self was strongly shaped by those who guided me and acted as role models, and that the best way to bring young girls into the sciences and keep them there is through inspiration and empowerment. Because of this, I am greatly interested in outreach efforts that support women and girls in STEM."
+  pic: "{{ site.github.url }}/assets/img/ccuwip2025.jpg"
+
+- top: 'More personal to keep it human'
+  lvlone: 'Outside of school, I keep myself busy by baking treats to share, losing to my friends in board games, or getting overly invested in a crochet project for only a week at a time. During my summer in Victoria, I bought entirely too many CDs to add to my eclectic collection that, due to the unpredictable nature of thrift store stock, features genres from dance-punk revival to country rock to Cantopop. I also have two cats who I love to cuddle with when I visit home, though they unfortunately prefer my sister to me.'
+  pic: "{{ site.github.url }}/assets/img/pivothome.jpg"
