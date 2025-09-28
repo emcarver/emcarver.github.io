@@ -2,6 +2,18 @@
 layout: default
 ---
 
+<div class="row g-5 mb-5">
+  <h3 class="fw-bold border-bottom pb-3 mb-5">About Me</h3>
+    {% for section in site.data.aboutme.aboutmetext %}
+      <div class="col-md-6">
+        <p>{{ section.lvlone }}</p>
+      </div>
+      <div class="col-md-6">
+        <img src="{{ site.github.url }}/assets/img/{{ section.pic }}" height="250px">
+      </div>
+      {% endfor %}
+</div>
+
 <!-- <div class="row g-5 mb-5">
   <div class="col-md-12">
     <h3 class="fw-bold border-bottom pb-3 mb-5">About Me</h3>
@@ -25,15 +37,3 @@ layout: default
       </div>
       {% endfor %}
 </div> -->
-
-<div class="row g-5 mb-5">
-  <h3 class="fw-bold border-bottom pb-3 mb-5">About Me</h3>
-  {% for section in site.data.aboutme.aboutmetext %}
-      <div class="col-md-6">
-        <p>{{ section.lvlone }}</p>
-      </div>
-      <div class="col-md-6">
-        <img src="{{ site.github.url }}/assets/img/{{ section.pic }}" height="250px">
-      </div>
-      {% endfor %}
-</div>
