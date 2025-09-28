@@ -9,7 +9,7 @@ layout: default
         <p>{{ section.lvlone }}</p>
       </div>
       <div class="col-md-6">
-          <img src="{{ site.github.url }}/assets/img/{{ section.pic }}" width="75%">
+          <img src="{{ site.github.url }}/assets/img/{{ section.pic }}" width="{{ section.picformatting }}">
       </div>
       {% unless forloop.last %}
         <h3 class="fw-bold border-bottom pb-3 mb-5"></h3>
