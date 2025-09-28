@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="row g-5 mb-5">
+<!-- <div class="row g-5 mb-5">
   <div class="col-md-12">
     <h3 class="fw-bold border-bottom pb-3 mb-5">About Me</h3>
       {% for section in site.data.aboutme.aboutmetext %}
@@ -11,6 +11,19 @@ layout: default
         <img src="{{ site.github.url }}/assets/img/{{ section.pic }}" class="mx-auto d-block" style="max-width: 500px;">
       {% endfor %}
   </div>
+</div> -->
+
+<div class="row g-5 mb-5">
+  {% for section in site.data.aboutme.aboutmetext %}
+    <h3 class="fw-bold border-bottom pb-3 mb-5">About Me</h3>
+      <div class="col-md-6">
+        <p class="fw-bold">{{ section.top }}</p>
+        <p>{{ section.lvlone }}</p>
+      </div>
+      <div class="col-md-6">
+        <img src="{{ site.github.url }}/assets/img/{{ section.pic }}" width="100%">
+      </div>
+      {% endfor %}
 </div>
 
 
