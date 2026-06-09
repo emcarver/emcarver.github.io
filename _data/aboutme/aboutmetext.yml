@@ -1,14 +1,14 @@
-- top: 'This is the text to display at the top'
-  lvlone: "I am currently a 4th year physics student at the University of Lethbridge. I grew up in a small town near Lethbridge, where I've always been curious about understanding the world around me through studying the sciences. I chose to study physics at ULethbridge as a route to ultimately pursue research in astronomy and astrophysics. My current main research interests are multiwavelength astronomy and compact objects. However, because of the interdisciplinary nature of research in astrophysics and because I have limited experience so far, I don't want to close myself off to research topics."
-  pic: "auroraheart.jpg"
-  picformatting: "75%"
-
-- top: 'Something about outreach generally'
-  lvlone: "I've grown up constantly surrounded by inspiring women, from having my curiosity for the sciences supported by a mother and grandmother with careers teaching STEM in school, to my time in sports learning leadership from inspiring female head coaches, to completing my first internship with an accomplished female researcher. I know that my current self was strongly shaped by those who guided me and acted as role models, and that inspiration and empowerment can bring young girls into the sciences and keep them there. Because of this, I am greatly interested in outreach efforts that support women and girls in STEM."
-  pic: "ccuwip2025.jpg"
+- top: ''
+  lvlone: "I graduated from the University of Lethbridge in May 2026 with a Bachelor of Science in Physics. I was always interested in the sciences, but I fell in love with astronomy after visiting the Cypress Hills Observatory in middle school, and chose to complete a physics degree as a route to later pursuing astrophysics. During my time as an undergraduate student I was awarded research opportunities that revealed my passion for astrophysics research, but these grew my list of research interests rather than narrowing them down. I am currently open to all research topics, but I have some experience studying radio astronomy and X-ray binaries from my internships."
+  pic: "auroraheart_short.jpg"
   picformatting: "100%"
 
-- top: 'More personal to keep it human'
-  lvlone: 'Outside of school, I keep myself busy by baking treats to share, losing to my friends in board games, or getting overly invested in a crochet project for only a week at a time. I also love to search for CDs to add to my eclectic collection that, due to the unpredictable nature of thrift store stock, features genres from dance-punk revival to country rock to Cantopop.'
+- top: ''
+  lvlone: "I strongly believe that science should be accessible to the public and that science communication is a necessary skill for all researchers. I also believe that nurturing scientific curiosity in students, especially those from underrepresented backgrounds, is absolutely essential. My journies through both life and academia have been strongly influenced by the guidance and support of many inspiring women. I understand that this same inspiration and empowerment are both important to both bringing young girls into the sciences, and to keeping them from leaving. Because of this, I am greatly interested in outreach efforts that support women and girls in STEM."
+  pic: "outreach.jpg"
+  picformatting: "100%"
+
+- top: ''
+  lvlone: 'Outside of school and work, I keep myself busy by baking treats to share with friends, briefly obessing over crochet projects, or adding to my eclectic CD collection. I also love to read fantasy and sci-fi for fun, and spend time under the sun. While I enjoy playing party and board games with friends, I seem to lose every time, so feel free to challenge me to a game!'
   pic: "honse.jpg"
   picformatting: "100%"
